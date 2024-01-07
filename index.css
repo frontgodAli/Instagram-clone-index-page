@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 13px;
+    background-color: #EDEDED;
+}
+#container{
+    margin: 0 auto;
+    width: 375px;
+    background-color: #EDEDED;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom:1px solid #C6C6C6;
+    background-color: white;
+}
+.logo{
+    width: 127px;
+}
+.user-avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+.post-header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 0 8px;
+
+}
+.p-wrapper{
+    line-height: 15px;
+}
+
+.author{
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0;
+}
+.location{
+    font-size: 12px;
+    margin: 0;
+}
+
+.user-post{
+    width: 100%;
+}
+.tools{
+    padding: 10px;
+}
+.icon{
+    width: 23px;
+    margin-right: 10px;
+}
+.bold-text{
+    font-weight: 700;
+}
+section{
+    background-color: white;
+}
+.newPost{
+    margin-bottom: 25px;
+}
+.icon:hover{
+    opacity: 0.5;
+}
